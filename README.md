@@ -11,7 +11,6 @@ This project implements an AI-powered question-answering system that can process
 - Question answering using a fine-tuned language model
 - Support for Turkish language queries and responses
 - Performance timing for query responses
-- JSON to PDF conversion utility
 
 ## Technologies Used
 
@@ -21,14 +20,12 @@ This project implements an AI-powered question-answering system that can process
 - CTransformers
 - PyPDF
 - Sentence Transformers
-- ReportLab (for PDF generation)
 
 ## Setup
 
 1. Install the required packages:
    
-pip install langchain pinecone-client transformers huggingface-hub ctransformers langchain-community pypdf sentence_transformers pandas fpdf reportlab
-javascript
+pip install langchain pinecone-client transformers huggingface-hub ctransformers langchain-community pypdf sentence_transformers
 
 
 3. Set up your Pinecone API key and environment:
