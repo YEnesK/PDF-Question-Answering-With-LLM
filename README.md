@@ -26,13 +26,15 @@ This project implements an AI-powered question-answering system that can process
 ## Setup
 
 1. Install the required packages:
+   
 pip install langchain pinecone-client transformers huggingface-hub ctransformers langchain-community pypdf sentence_transformers pandas fpdf reportlab
 javascript
 
 
-2. Set up your Pinecone API key and environment:
+3. Set up your Pinecone API key and environment:
 
 PINECONE_API_KEY = "your-api-key"
+
 PINECONE_API_ENV = "your-environment"
 
 ## Note
